@@ -17,12 +17,12 @@ limitations under the License.
 package main
 
 import (
+	"github.com/ExpediaGroup/flyte-bitbucket/command"
+	"github.com/HotelsDotCom/flyte-client/client"
+	"github.com/HotelsDotCom/flyte-client/flyte"
 	"log"
 	"net/url"
 	"os"
-	"github.com/HotelsDotCom/flyte-client/client"
-	"github.com/HotelsDotCom/flyte-client/flyte"
-	"github.com/HotelsDotCom/flyte-bitbucket/command"
 	"time"
 )
 
@@ -34,7 +34,7 @@ func main() {
 	hostUrl := getUrl(flyteHost)
 	packDef := flyte.PackDef{
 		Name:     "BitBucket",
-		HelpURL:  getUrl("https://github.com/HotelsDotCom/flyte-bitbucket/blob/master/README.md"),
+		HelpURL:  getUrl("https://github.com/ExpediaGroup/flyte-bitbucket/blob/master/README.md"),
 		Commands: []flyte.Command{command.CreateRepoCommand},
 	}
 

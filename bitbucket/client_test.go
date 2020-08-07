@@ -19,9 +19,9 @@ package bitbucket
 import (
 	"encoding/json"
 	"errors"
+	"github.com/ExpediaGroup/flyte-bitbucket/domain"
 	"net/http"
 	"reflect"
-	"github.com/HotelsDotCom/flyte-bitbucket/domain"
 	"testing"
 )
 

@@ -19,10 +19,10 @@ package command
 import (
 	"encoding/json"
 	"fmt"
-	"log"
+	"github.com/ExpediaGroup/flyte-bitbucket/bitbucket"
+	"github.com/ExpediaGroup/flyte-bitbucket/domain"
 	"github.com/HotelsDotCom/flyte-client/flyte"
-	"github.com/HotelsDotCom/flyte-bitbucket/domain"
-	"github.com/HotelsDotCom/flyte-bitbucket/bitbucket"
+	"log"
 )
 
 var CreateRepoCommand = flyte.Command{
