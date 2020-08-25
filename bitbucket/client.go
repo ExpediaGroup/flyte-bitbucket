@@ -20,10 +20,10 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
+	"github.com/ExpediaGroup/flyte-bitbucket/domain"
 	"log"
 	"net/http"
 	"os"
-	"github.com/HotelsDotCom/flyte-bitbucket/domain"
 )
 
 type httpSendRequest func(r *http.Request, responseBody interface{}) (*http.Response, error)

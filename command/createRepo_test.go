@@ -19,8 +19,8 @@ package command
 import (
 	"encoding/json"
 	"errors"
+	"github.com/ExpediaGroup/flyte-bitbucket/domain"
 	"reflect"
-	"github.com/HotelsDotCom/flyte-bitbucket/domain"
 	"testing"
 )
 

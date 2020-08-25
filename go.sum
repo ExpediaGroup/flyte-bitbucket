@@ -1,0 +1,4 @@
+github.com/HotelsDotCom/flyte-client v0.0.0-20180516111346-cfdc49ada2b0 h1:Pl4L4wVvimKxyJwzx4HIzqpY/8tUfx35/MhclBruHdA=
+github.com/HotelsDotCom/flyte-client v0.0.0-20180516111346-cfdc49ada2b0/go.mod h1:JOi5h1FIz9nT+e1DBXjcMrHD5TMx9vYL1HjlRjFUP9k=
+github.com/HotelsDotCom/go-logger v0.0.0-20180518131502-802095993e48 h1:lHzYGC5ri5crlQR/uPoNK6b813H3G7Rp/+v6k2qbiUM=
+github.com/HotelsDotCom/go-logger v0.0.0-20180518131502-802095993e48/go.mod h1:rvobSJoTaXXfnosmzN6/TT7EGplWZoZZB2GSO1xGG9g=

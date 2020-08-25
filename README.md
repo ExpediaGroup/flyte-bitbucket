@@ -1,6 +1,6 @@
 ## Overview
 
-![Build Status](https://travis-ci.org/HotelsDotCom/flyte-bitbucket.svg?branch=master)
+![Build Status](https://travis-ci.org/ExpediaGroup/flyte-bitbucket.svg?branch=master)
 [![Docker Stars](https://img.shields.io/docker/stars/hotelsdotcom/flyte-bitbucket.svg)](https://hub.docker.com/r/hotelsdotcom/flyte-bitbucket)
 [![Docker Pulls](https://img.shields.io/docker/pulls/hotelsdotcom/flyte-bitbucket.svg)](https://hub.docker.com/r/hotelsdotcom/flyte-bitbucket)
 
